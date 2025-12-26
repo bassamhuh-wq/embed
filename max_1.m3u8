@@ -1,0 +1,24 @@
+#EXTM3U
+#EXT-X-VERSION:3
+
+# --- 480P | 25fps ---
+# متوسط مناسب للهواتف والنت الضعيف
+#EXT-X-STREAM-INF:BANDWIDTH=900000,AVERAGE-BANDWIDTH=750000,RESOLUTION=854x480,FRAME-RATE=25.000,CODECS="avc1.4d401e,mp4a.40.2",NAME="beIN SPORTS MAX 1 | 480P | 25fps"
+https://py.dencreak.com/alwan_sd4.m3u8
+
+# --- 576P | 25fps ---
+# أعلى شوية بس مايزنقش التحويل
+#EXT-X-STREAM-INF:BANDWIDTH=1400000,AVERAGE-BANDWIDTH=1200000,RESOLUTION=1024x576,FRAME-RATE=25.000,CODECS="avc1.4d401f,mp4a.40.2",NAME="beIN SPORTS MAX 1 | 576P | 25fps"
+https://py.dencreak.com/alwan_sd4.m3u8
+
+
+# --- 1080P | 25fps ---
+# فول HD ثابت بدون هدر
+#EXT-X-STREAM-INF:BANDWIDTH=3200000,AVERAGE-BANDWIDTH=2800000,RESOLUTION=1280x720,FRAME-RATE=25.000,CODECS="avc1.640028,mp4a.40.2",NAME="beIN SPORTS MAX 1 | 1080P | 25fps"
+https://py.dencreak.com/alwan_hd4.m3u8
+
+
+# --- 1080P | 50fps (TOP QUALITY) ---
+# Target 5.5 Mbps | Peak يصل 6 Mbps
+#EXT-X-STREAM-INF:BANDWIDTH=6000000,AVERAGE-BANDWIDTH=5500000,RESOLUTION=1920x1080,FRAME-RATE=50.000,CODECS="avc1.64002a,mp4a.40.2",NAME="beIN SPORTS MAX 1 | 1080P | 50fps"
+https://py.dencreak.com/alwan_4k4.m3u8
